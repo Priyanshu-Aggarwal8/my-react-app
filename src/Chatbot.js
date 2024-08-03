@@ -57,6 +57,9 @@ const ChatBot = () => {
       case 'where do you live?':
         responseText = 'I live in the cloud, ready to assist you anytime!';
         break;
+      case 'do you love me?':
+        responseText = 'For sure babu Im yours only!';
+        break;
       default:
         responseText = "I'm not sure how to respond to that.";
         break;
